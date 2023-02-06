@@ -4,34 +4,50 @@
 html {font-size: 100%;} /*16px*/
 
 body {
-  background-color: #b09bbd;
+  background-color: #BE9FE1;
   color: #181354;
-  margin: 0;
   padding: 40px;
-  line-height: 1.75;
+  line-height: 1.50;
   background-size: cover;
 }
 h1 {
 
   font-family: 'Montserrat';
-  font-size: 5em;
+  font-size: 3em;
+  color: #FEDEFF;
 }
 
-h2 {font-size: 3em;
+h2 {
+  font-family: 'Trebuchet MS';
+  font-size: 2em;
 
 }
 
 h4 {font-size: 1em;
-margin-top: 0;
 font-family: 'Montserrat';
+color: #FEDEFF;
 
 }
 
 dt {
-	font-size: 2em;
-	font-weight: bold;
+	font-family: 'Trebuchet MS';
+	font-size: 1.5em;
+	font-weight: semibold;
 }
 
+dd {
+    font-family: 'Montserrat';
+    font-size: 1em;
+    font-weight: light;
+
+}
+
+ul {
+    font-family: 'Montserrat';
+    font-size: 1em;
+    font-weight: light;
+
+}
 a {
   text-decoration: none; /* this gets rid of the default underline */
 }
