@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Styles for browser window is widder than 800px */
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family:poppins;
+  font-size:14px;
+}
+
+h2{
+  font-size:1.25em;
+  text-transform:uppercase;
+}
+
+.name{
+  font-weight:400;
+  text-transform:uppercase;
+  letter-spacing:.75px;
+  font-size:1.15em;
+}
+
+.desc{
+  font-size:13px;
+}
+
+li{
+  list-style-type: none;
+  margin-bottom:7px;
+}
+
+li a{
+  color:#191825;
+    text-decoration:none;
+}
+
+li a:hover{
+  color:#776c77;
+  text-decoration:none;
+  margin-left:10px;
+}
+
+footer{
+  bottom:0;
+  position:absolute;
+  width:100%;
+}
+
+.footer-main{
+  display:flex;
+  flex-direction: row;
+}
+
+.footer-section{
+  background-color:#EFEFEF;
+  flex-wrap: wrap;
+  flex:25%;
+  padding:50px 80px 50px 80px;
+  justify-content: space-between;
+}
+
+.footer-bottom{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+    padding: 1.75rem 25rem;
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Start: tell browser to do the followings when browser window is 800px or smaller */
+  @media only screen and (max-width: 800px) {
+
+    .footer-main{
+      flex-direction: column;
+    }
+
+    .footer-section{
+      padding:40px 80px 40px 80px;
+      justify-content: space-between;
+    }
+
+
+} /* don't forget to close the styles for 800px and smaller */
